@@ -41,6 +41,7 @@
 * [Yük Dengeleme](docs/metallb.md)
 * [Kustomize](docs/kustomize.md)
 * [Helm](docs/helm.md)
+* [ArgoCD](docs/argocd.md)
 
 
 ## Görevler
