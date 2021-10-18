@@ -2,11 +2,11 @@
 
 ## Gereksinimler
 
-### Kurulum
+### Kurulum Alternatifleri
 
-* [Kubespray](docs/kubespray.md)
-* [Kubeadm](docs/kubeadm.md)
-* [Minikube](https://minikube.sigs.k8s.io/docs/)
+* [Kubespray](docs/kubespray.md) :green_heart:
+* [Kubeadm](docs/kubeadm.md) 
+* [Minikube](https://minikube.sigs.k8s.io/docs/) :green_heart:
 * [micro8s](docs/micro8s.md)
 * [Docker Desktop](https://birthday.play-with-docker.com/kubernetes-docker-desktop/)
 * [kind](https://kind.sigs.k8s.io/)
