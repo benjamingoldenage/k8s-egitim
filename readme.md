@@ -3,7 +3,7 @@
 ## Kurulum Alternatifleri 
 
 - :trophy: Canlıya uygun, ölçeklenebilir, yönetilebilir. 
-- :sparkles: Beğendiklerim
+- :gift_heart: Beğendiklerim
 - :rowboat: Sadece Geliştirme ve öğrenme ortamı için
 - :bike: IOT ve Edge için
 
