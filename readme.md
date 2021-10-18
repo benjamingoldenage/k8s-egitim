@@ -2,10 +2,10 @@
 
 ## Kurulum Alternatifleri 
 
-    :trophy: Canlıya uygun, ölçeklenebilir, yönetilebilir. 
-    :sparkles: Beğendiklerim
-    :rowboat: Sadece Geliştirme ve öğrenme ortamı için
-    :bike: IOT ve Edge için
+- :trophy: Canlıya uygun, ölçeklenebilir, yönetilebilir. 
+- :sparkles: Beğendiklerim
+- :rowboat: Sadece Geliştirme ve öğrenme ortamı için
+- :bike: IOT ve Edge için
 
 * [Kubespray](docs/kubespray.md) :trophy::gift_heart:
 * [micro8s](docs/micro8s.md) :bike::gift_heart:
