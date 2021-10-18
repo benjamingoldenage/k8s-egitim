@@ -2,18 +2,18 @@
 
 ## Kurulum Alternatifleri 
 
-:green_heart: Beğendiklerim
-:pink_heart: Sadece Geliştirme ve öğrenme ortamı için
-:gray_heart: IOT ve Edge için
+    :trophy: Canlıya uygun, ölçeklenebilir, yönetilebilir. 
+    :sparkles: Beğendiklerim
+    :rowboat: Sadece Geliştirme ve öğrenme ortamı için
+    :bike: IOT ve Edge için
 
-* [Kubespray](docs/kubespray.md) :green_heart: 
-* [micro8s](docs/micro8s.md) :green_heart: :gray_heart:
-* [Kubeadm](docs/kubeadm.md) 
-* [kind](https://kind.sigs.k8s.io/) :gray_heart:
-* [k3s](https://k3s.io/) :gray_heart:
-* [Docker Desktop](https://www.docker.com/products/docker-desktop) :pink_heart:
-* [Rancher Desktop](https://rancherdesktop.io/) :pink_heart:
-* [Minikube](https://minikube.sigs.k8s.io/docs/) :pink_heart:
+* [Kubespray](docs/kubespray.md) :trophy::gift_heart:
+* [micro8s](docs/micro8s.md) :bike::gift_heart:
+* [k3s](https://k3s.io/) :bike:
+* [kind](https://kind.sigs.k8s.io/) :rowboat:
+* [Docker Desktop](https://www.docker.com/products/docker-desktop) :rowboat:
+* [Rancher Desktop](https://rancherdesktop.io/) :rowboat:
+* [Minikube](https://minikube.sigs.k8s.io/docs/) :rowboat:
 
 
 ## Temel Kavramlar
