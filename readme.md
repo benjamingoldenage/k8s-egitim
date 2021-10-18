@@ -1,16 +1,19 @@
 # Kubernetes Eğitimi
 
-## Gereksinimler
+## Kurulum Alternatifleri 
 
-### Kurulum Alternatifleri
+:green_heart: Beğendiklerim
+:pink_heart: Sadece Geliştirme ve öğrenme ortamı için
+:gray_heart: IOT ve Edge için
 
-* [Kubespray](docs/kubespray.md) :green_heart:
+* [Kubespray](docs/kubespray.md) :green_heart: 
+* [micro8s](docs/micro8s.md) :green_heart: :gray_heart:
 * [Kubeadm](docs/kubeadm.md) 
-* [Minikube](https://minikube.sigs.k8s.io/docs/) :green_heart:
-* [micro8s](docs/micro8s.md)
-* [Docker Desktop](https://birthday.play-with-docker.com/kubernetes-docker-desktop/)
-* [kind](https://kind.sigs.k8s.io/)
-* [k3s](https://k3s.io/)
+* [kind](https://kind.sigs.k8s.io/) :gray_heart:
+* [k3s](https://k3s.io/) :gray_heart:
+* [Docker Desktop](https://www.docker.com/products/docker-desktop) :pink_heart:
+* [Rancher Desktop](https://rancherdesktop.io/) :pink_heart:
+* [Minikube](https://minikube.sigs.k8s.io/docs/) :pink_heart:
 
 
 ## Temel Kavramlar
@@ -20,7 +23,7 @@
 * [Küme Mimarisi](docs/mimari.md)
 * [kubectl](docs/kubectl.md)
 
-# Mantıksal Kavramlar
+## Mantıksal Kavramlar
 
 * [Pod,ReplicaSet,Deployment](docs/pod-rs-deployment.md)
 * [Service](docs/service.md)
