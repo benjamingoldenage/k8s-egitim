@@ -1,5 +1,8 @@
 # helm
 
+Bir k8s uygulama kümesinin (deployment, service, configmap, secrets, ingress ... birlikte) kolayca yönetilebilmesi ve bir bütün olarak taşınabilmesi için üretilmiş bir yapılandırma paket yönetimidir. 
+
+
 ```sh
 
 # Script olarak kurulum, istenirse dağıtımların depolarından da kurulabilir. 
@@ -45,10 +48,14 @@ helm install <kurulum_adi> stable/postgresql
 
 Helm ile kendi chartlarımızı oluşturmak
 
+Bir chart, values.yaml dosyası içerisinde tanımlanmış değerler için bir templateler bütünüdür. Bu dosyaya değerler atanarak templateler güncellenir. 
+
 ```
 helm create ilk-app
 
 ```
+
+Bunun sonucunda aşağıdaki dizin oluşur ve tüm olası template alanları oluşturulur.
 
 ```
 tree ilk-app
@@ -81,6 +88,30 @@ appVersion: 1.16.0
 
 ```
 
+```yaml
+ spec: 
+  replicas: {{ .Values.replicaCount }}
+
+#values.yaml içerisinde tanımlanır.
+
+replicaCount: 3
+```
+
+Ayrıca komut satırın bu değer aşağıdaki gibi de girilebilir. 
+
+```yaml
+
+... --set replicaCount=3
+
+```
+
+values.yaml dosyasında neler var görmek için
+
+```sh
+#helm char dizininde
+helm inspect values .
+```
+
 
 ```
 # Birden çok values dosyası kullanabilirsiniz. Sonra gelen önceliklidir. 
@@ -88,3 +119,7 @@ helm install -f myvalues.yaml -f override.yaml  myredis ./redis
 
 ```
 
+### Kaynaklar
+* https://helm.sh/
+* https://helm.sh/docs/chart_best_practices/
+* https://www.youtube.com/watch?v=3GPpm2nZb2s
