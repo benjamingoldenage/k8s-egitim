@@ -3,7 +3,10 @@
 https://kubernetes.io/docs/concepts/overview/components/
 
 
+Kontrol düzlemi, veri düzlemi ve yönetim düzlemi, bilişim kaynaklarındaki iletişim mimarisinin üç temel bileşenidir. **Kontrol düzlemi ve yönetim düzlemi**, tüm ağın taşımak için var olduğu trafiği taşıyan **veri düzlemine** hizmet eder. Yönetimsel trafik taşıyan yönetim düzlemi, kontrol düzleminin bir alt kümesi olarak kabul edilir. Veri düzlemi asıl vereceğimiz hizmetin trafiğinin aktığı düzlemdir. 
+
 ## Kontrol Düzlemi Bileşenleri
+
 
 ### kube-apiserver
 

@@ -1,5 +1,20 @@
 # Kubernetes Eğitimi
 
+# Önkoşullar
+* [algoritmalar ve veri yapıları](https://www.youtube.com/watch?v=r3uOBb3BM-0&list=PLh9ECzBB8tJN9bckI6FbWB03HkmogKrFT)
+* [Algoritma Analizi ve Big-O](https://www.youtube.com/watch?v=3bhBo9YCTpo&list=PLh9ECzBB8tJPTWIUbZjHZMMGuZcpHUv5h)
+* [programlamaya giriş](https://www.youtube.com/playlist?list=PLh9ECzBB8tJNzJqD64MAS0SK5IeNCKCzY)
+* [işletim sistemleri](https://www.youtube.com/watch?v=r2q_XRKrqHQ&list=PLh9ECzBB8tJO9eiwfQbcA2ThMbUSkbOWf)
+* [linux](https://www.youtube.com/watch?v=_Kc9ImFpqro&list=PLh9ECzBB8tJOnxXrUTOqXfurKOZkN4mEY)
+* [Veri tabanı temelleri](https://www.youtube.com/watch?v=pHKZw5EyTi4&list=PLh9ECzBB8tJOS7WQKdeUaAa5fmPLYAouD)
+* [ağ kavramları](https://www.youtube.com/playlist?list=PLDUOF2Be-kzn8h0-eI0HSADJsaDDu3IUj)
+* [Konteynerler](https://www.youtube.com/watch?v=hUnST9FY39I)
+* [Mikroservisler](https://www.youtube.com/watch?v=Jta9jw9kAVc)
+* [Devops](https://www.youtube.com/watch?v=LI9FEQyopSg)
+* [Devops](https://www.youtube.com/playlist?list=PLAocyzWJktm5nxI97bQaFiiXtWO8tawCC)
+* [Gitops ve Kubernetes](https://www.youtube.com/watch?v=Utjni_LbMxc)
+
+
 ## Kurulum Alternatifleri 
 
 - :trophy: Canlıya uygun, ölçeklenebilir, yönetilebilir. 
@@ -9,6 +24,7 @@
 
 * [Kubespray](docs/kubespray.md) :trophy::gift_heart:
 * [micro8s](docs/micro8s.md) :bike::gift_heart:
+* [k0s](https://github.com/k0sproject/k0s) :bike: 
 * [k3s](https://k3s.io/) :bike:
 * [kind](https://kind.sigs.k8s.io/) :rowboat:
 * [Docker Desktop](https://www.docker.com/products/docker-desktop) :rowboat:
@@ -17,46 +33,48 @@
 
 
 ## Temel Kavramlar
-
 * [Neden Kontainerlar?](docs/neden.md)
 * [Bileşenler](docs/bilesen.md)
 * [Küme Mimarisi](docs/mimari.md)
 * [kubectl](docs/kubectl.md)
 
-## Mantıksal Kavramlar
+## Temel Kaynaklar
 
 * [Pod,ReplicaSet,Deployment](docs/pod-rs-deployment.md)
 * [Service](docs/service.md)
-* [Label](docs/label.md)
 * [ConfigMaps](docs/configmaps.md)
 * [Secrets](docs/secrets.md)
+
+## Diğer Kaynaklar
 * [Volumes](docs/volumes.md)
-* [İtme ve Çekme](docs/taints-affinity.md)
 * [İşler ve Zamanlı İşler](docs/jobs-cronjobs.md)
 * [DaemonSet](docs/daemonsets.md)
 * [StatefulSet](docs/statefulsets.md)
 * [Ingress](docs/ingress.md)
 * [Yatay Pod Ölçeklendirme](docs/hpa.md)
-* [Kullanıcılar](docs/users.md)
+* [Yetkiler](docs/yetkiler.md)
+* [Kaynaklar ve Limitler](docs/kaynaklar-limitler.md)
+* [CRD](docs/crd.md) - 
+
+## Önemli Kavramlar
+* [Label](docs/label.md)
+* [İtme ve Çekme](docs/taints-affinity.md)
+* [Sürekli Güncellemeler](docs/surekli-guncellemeler.md)
+* [Sağlık Kontrolü](docs/canlilik-hazirlik.md)
 
 # Ek Araçlar
-
 * [Yük Dengeleme](docs/metallb.md)
 * [Kustomize](docs/kustomize.md)
 * [Helm](docs/helm.md)
 * [ArgoCD](docs/argocd.md)
-
+* [Service Mesh](docs/service-mesh.md) - 
 
 ## Görevler
-
+* [Güvenlik](docs/güvenlik.md)
+* [Servis Özelliğinin Farklı Kullanımı](docs/lb-dis-servisler.md)
 * [Günlük Kayıtları](docs/logs.md)
 * [Service Nasıl Çalışır?](docs/service-nasil.md)
-* [Kaynaklar ve Limitler](docs/kaynaklar-limitler.md)
-* [Sürekli Güncellemeler](docs/surekli-guncellemeler.md)
-* [Sağlık Kontrolü](docs/canlilik-hazirlik.md)
 * [Canlı ortam Kontrol Listesi](docs/prod_checklist.md)
-* [Servis Özelliğinin Farklı Kullanımı](docs/lb-dis-servisler.md)
-* [Güvenlik](docs/güvenlik.md)
 * [İyi pratikler](docs/best-practices.md)
 
 
